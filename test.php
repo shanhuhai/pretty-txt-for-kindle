@@ -1,2 +1,3 @@
 <?php
-echo substr('abcdef',3,-3);
+$file =  __DIR__.'/dd.txt';
+print_r(pathinfo($file));
